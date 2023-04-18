@@ -1,0 +1,16 @@
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+
+.democlick2
+{
+  display: none;}
+span:focus ~ .democlick2
+{
+  display: block;
+}
+.detalles:hover{
+  cursor: pointer;
+  color: darkblue;
+}
+

@@ -1,0 +1,18 @@
+
+<div class="card flex justify-content-center">
+  <p-panel header="{{title}}">
+      <app-pokemon></app-pokemon>
+  </p-panel>
+</div>
+
+
+
+<div class="grid">
+  <app-card [dataEntrante]="elementC" *ngFor="let elementC of cardsPokemon"></app-card>
+  <!-- <app-pokemon #cpokemon></app-pokemon> -->
+  <!-- <div [textContent]=" cpokemon."></div> -->
+</div>
+<!-- <div>{{cardsPokemon}}</div> -->
+<!-- <app-pokemon></app-pokemon> -->
+
+

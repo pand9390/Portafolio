@@ -1,0 +1,21 @@
+<!-- <div>
+  <img [src]="image" alt="">
+  <div>
+    <div class="title">{{dataEntrante?.title}}</div>
+    <div class="sub-title"> {{dataEntrante?.subtitle}}</div>
+  </div>
+  <div>
+    <button class="" (click)="agregarFavorito()">add favorite</button>
+  </div>
+</div> -->
+
+<p-card  >
+  <img src="{{urlImage}}" alt="Foto Pokemon">
+  <h2>{{dataEntrante?.name}}</h2>
+  <h4>Tipo: {{tipo}}</h4>
+  <h4>id: {{resp}}</h4>
+  <!-- <p>Habilidad:{{habilidad}}</p> -->
+
+<!-- <app-pokemon [dataEntrantePokemon]="elementP" *ngFor="let elementP of datosPokemon">asdadsd</app-pokemon> -->
+<app-abilities [dataInicio]="habilidad"></app-abilities>
+</p-card>

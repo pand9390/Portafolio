@@ -1,0 +1,34 @@
+<h2>Habilidades</h2>
+
+<div>
+  <!-- <button class="" (click)="agregarAbilidad()">add favorite</button> -->
+  <!-- <p > habilidad:{{dataInicio}} </p> -->
+  <!-- <input type="text" value="{{dataInicio}}"> -->
+  <!-- <div (click)="searchAb()">hailidad en servicio: {{ dataInicio }} -->
+
+  <!-- <div class="contenido"> detalles: {{pnameAb}}</div> -->
+  <!-- <button class="" (click)="searchAb()">buscarAbilidad</button> -->
+  <!-- <span tabindex="0">{{dataInicio}}
+  <p (mouseover)="searchAb()" class="detalles"> ver mas></p> </span>
+  <div class="democlick2">
+    <p>{{pnameAb}}</p>
+  </div> -->
+
+
+
+
+  <p-inplace (mouseover)="searchAb()"
+
+  closable="closable">
+    <ng-template pTemplate="display">
+        <span>{{dataInicio}}</span>
+    </ng-template>
+    <ng-template pTemplate="content">
+        <!-- <input type="text" value="PrimeNG" pInputText /> -->
+        <h3>{{dataInicio}}</h3>
+        <p>{{pnameAb}}</p>
+
+    </ng-template>
+</p-inplace>
+
+</div>

@@ -1,0 +1,25 @@
+
+<input type="text" pInputText [(ngModel)]="name">
+<button class="fancy-button" (click)="search()">Buscar</button>
+<img src="{{urlImage}}" alt="Foto Pokemon">
+<p-card class="cards" header="{{pname}}" subheader="Tipo: {{tipo}}" [style]="{ width: '360px' }">
+  <div>Habilidad: {{habilidades}}</div>
+  <ng-template pTemplate="header">
+      <img alt="Card" src="{{urlImage}}" />
+  </ng-template>
+<!-- <app-abilities [dataInicio]="habilidades"></app-abilities> -->
+
+<!-- <ul>
+  <li *ngFor="let video of listaVideos">
+    <div>
+      <img [src]="video?.data?.img" alt="">
+      <div>{{video?.data?.title}}</div>
+    </div>
+
+
+  </li>
+</ul> -->
+
+</p-card>
+
+
